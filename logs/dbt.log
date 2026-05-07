@@ -1,0 +1,6 @@
+[0m13:40:21.227010 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D8A470A180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D8A4B1D040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D8A0578110>]}
+
+
+============================== 13:40:21.243603 | 833b5e5f-dc6e-414e-896e-543445537023 ==============================
+[0m13:40:21.243603 [info ] [MainThread]: Running with dbt=1.11.8
+[0m13:40:21.244610 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init', 'use_experimental_parser': 'False', 'log_path': 'logs'}
