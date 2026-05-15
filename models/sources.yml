@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: mileage_source
+    database: mileage-495412
+    schema: MileageData
+    tables: 
+      - name: Mileage

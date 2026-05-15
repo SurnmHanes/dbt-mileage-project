@@ -15,7 +15,7 @@ with source_data as (
         column3                 as mileage_diff,
         Notes                   as remarks
     from
-        `mileage-495412.MileageData.Mileage`
+        {{ source('mileage_source', 'Mileage') }}
 )
 
 select * from source_data
