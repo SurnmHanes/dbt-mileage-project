@@ -4,5 +4,11 @@ sources:
   - name: mileage_source
     database: mileage-495412
     schema: MileageData
-    tables: 
+    tables:
       - name: Mileage
+        columns:
+          - name: Column1
+            description: primary key
+            data_tests:
+              - not_null
+              - unique
