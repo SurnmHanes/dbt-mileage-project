@@ -10,12 +10,12 @@
 with source_data as (
 
     select 
-        PARSE_DATE( '%d.%m.%y', column1 ) as mileage_date,
-        column2                 as mileage,
-        column3                 as mileage_diff,
-        Notes                   as remarks
+        Date as mileage_date,
+        m.Mileage                       as total_mileage,
+        Mileage_Diff                    as weekly_mileage,
+        Notes                           as remarks
     from
-        {{ source('mileage_source', 'Mileage') }}
+        {{ source('mileage_source', 'raw_mileage') }} as m
 )
 
 select * from source_data

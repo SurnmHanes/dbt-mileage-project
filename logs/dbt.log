@@ -2301,3 +2301,944 @@ select * from added_week;
 [0m22:02:59.378174 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D92FA9C620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D92FA9D0D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D945AD8A70>]}
 [0m22:02:59.378174 [debug] [MainThread]: Flushing usage events
 [0m22:03:00.558354 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:36:10.125693 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275F7196990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275F71949E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275F7196DB0>]}
+
+
+============================== 15:36:10.132898 | c07c4515-d7c2-4e8e-b2f4-c71e249eccf1 ==============================
+[0m15:36:10.132898 [info ] [MainThread]: Running with dbt=1.11.10
+[0m15:36:10.134898 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt ', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'c:\\Users\\NeilHanes\\OneDrive - MERCURY XRM LTD\\Desktop\\Sandbox\\SideProj\\dbt-mileage-project\\logs'}
+[0m15:36:10.505654 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c07c4515-d7c2-4e8e-b2f4-c71e249eccf1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275F786D220>]}
+[0m15:36:10.609622 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m15:36:10.613921 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m15:36:10.615921 [debug] [MainThread]: Command `cli deps` succeeded at 15:36:10.615921 after 0.81 seconds
+[0m15:36:10.621352 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275F799BA70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275F6B2D010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275F6B2E990>]}
+[0m15:36:10.622352 [debug] [MainThread]: Flushing usage events
+[0m15:36:12.062354 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:08:23.549694 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226CB793350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226CDE9B5F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226CDAE6C00>]}
+
+
+============================== 21:08:23.566368 | d4e66aad-556d-4358-b0ef-7d17958469ad ==============================
+[0m21:08:23.566368 [info ] [MainThread]: Running with dbt=1.11.10
+[0m21:08:23.568370 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt ', 'use_experimental_parser': 'False', 'log_path': 'c:\\Users\\NeilHanes\\OneDrive - MERCURY XRM LTD\\Desktop\\Sandbox\\SideProj\\dbt-mileage-project\\logs'}
+[0m21:08:24.442237 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd4e66aad-556d-4358-b0ef-7d17958469ad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226CE1975F0>]}
+[0m21:08:24.507055 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m21:08:24.511058 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m21:08:24.515058 [debug] [MainThread]: Command `cli deps` succeeded at 21:08:24.514059 after 1.57 seconds
+[0m21:08:24.516057 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226CEDA83E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226CE4C8A70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226CE129550>]}
+[0m21:08:24.518056 [debug] [MainThread]: Flushing usage events
+[0m21:08:26.398769 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:23:07.071398 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C27269F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C269A1520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C269A39E0>]}
+
+
+============================== 21:23:07.089347 | dfeb25c3-d58f-4c90-856d-89dfa94199d4 ==============================
+[0m21:23:07.089347 [info ] [MainThread]: Running with dbt=1.11.10
+[0m21:23:07.092363 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\NeilHanes\\OneDrive - MERCURY XRM LTD\\Desktop\\Sandbox\\SideProj\\dbt-mileage-project\\logs'}
+[0m21:23:18.581278 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'dfeb25c3-d58f-4c90-856d-89dfa94199d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C3A9F12B0>]}
+[0m21:23:18.814807 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'dfeb25c3-d58f-4c90-856d-89dfa94199d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C26E845C0>]}
+[0m21:23:18.817337 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m21:23:21.446695 [debug] [MainThread]: checksum: 2f247960199844e016e6a527f21364251736722c6212f4b11e96849fe0fc9e96, vars: {}, profile: , target: , version: 1.11.10
+[0m21:23:32.307475 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:23:32.309128 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m21:23:32.313147 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:23:32.631341 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'dfeb25c3-d58f-4c90-856d-89dfa94199d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C3BE3B2C0>]}
+[0m21:23:33.300212 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\manifest.json
+[0m21:23:33.495175 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\semantic_manifest.json
+[0m21:23:33.610192 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'dfeb25c3-d58f-4c90-856d-89dfa94199d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C3C28FFB0>]}
+[0m21:23:33.613196 [info ] [MainThread]: Found 2 models, 2 data tests, 1 source, 539 macros
+[0m21:23:33.624521 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'dfeb25c3-d58f-4c90-856d-89dfa94199d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C3C2D9400>]}
+[0m21:23:33.634623 [info ] [MainThread]: 
+[0m21:23:33.644882 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m21:23:33.656985 [info ] [MainThread]: 
+[0m21:23:33.673537 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m21:23:33.719400 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_mileage-495412'
+[0m21:23:33.723402 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:23:38.101883 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_mileage-495412_MileageData'
+[0m21:23:38.107883 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:23:41.729523 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'dfeb25c3-d58f-4c90-856d-89dfa94199d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C23F774A0>]}
+[0m21:23:41.731526 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:23:41.903029 [debug] [Thread-1 (]: Began running node model.mileage_project.mileage_transformed
+[0m21:23:41.907245 [info ] [Thread-1 (]: 1 of 2 START sql view model MileageData.mileage_transformed .................... [RUN]
+[0m21:23:41.912959 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.mileage_project.mileage_transformed'
+[0m21:23:41.913958 [debug] [Thread-1 (]: Began compiling node model.mileage_project.mileage_transformed
+[0m21:23:41.951879 [debug] [Thread-1 (]: Writing injected SQL for node "model.mileage_project.mileage_transformed"
+[0m21:23:41.955879 [debug] [Thread-1 (]: Began executing node model.mileage_project.mileage_transformed
+[0m21:23:42.090474 [debug] [Thread-1 (]: Writing runtime sql for node "model.mileage_project.mileage_transformed"
+[0m21:23:42.094724 [debug] [Thread-1 (]: On model.mileage_project.mileage_transformed: /* {"app": "dbt", "dbt_version": "1.11.10", "profile_name": "mileage_project", "target_name": "dev", "node_id": "model.mileage_project.mileage_transformed"} */
+
+
+  create or replace view `mileage-495412`.`MileageData`.`mileage_transformed`
+  OPTIONS()
+  as /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+with source_data as (
+
+    select 
+        PARSE_DATE( '%d.%m.%y', column1 ) as mileage_date,
+        column2                 as mileage,
+        column3                 as mileage_diff,
+        Notes                   as remarks
+    from
+        `mileage-495412`.`MileageData`.`Mileage`
+)
+
+select * from source_data;
+
+
+[0m21:23:42.096725 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m21:23:45.574914 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=mileage-495412&j=bq:EU:f47217e3-9ece-41c2-896b-702fcf0d033b&page=queryresults
+[0m21:23:45.912230 [debug] [Thread-1 (]: SQL status: OK in 0.335 seconds
+[0m21:23:56.823770 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'dfeb25c3-d58f-4c90-856d-89dfa94199d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C2658BA10>]}
+[0m21:23:56.825763 [info ] [Thread-1 (]: 1 of 2 OK created sql view model MileageData.mileage_transformed ............... [[32mCREATE VIEW (0 processed)[0m in 14.91s]
+[0m21:23:56.826767 [debug] [Thread-1 (]: Finished running node model.mileage_project.mileage_transformed
+[0m21:23:56.828747 [debug] [Thread-3 (]: Began running node model.mileage_project.int_mileage
+[0m21:23:56.829774 [info ] [Thread-3 (]: 2 of 2 START sql view model MileageData.int_mileage ............................ [RUN]
+[0m21:23:56.830776 [debug] [Thread-3 (]: Acquiring new bigquery connection 'model.mileage_project.int_mileage'
+[0m21:23:56.831775 [debug] [Thread-3 (]: Began compiling node model.mileage_project.int_mileage
+[0m21:23:56.943482 [debug] [Thread-3 (]: Writing injected SQL for node "model.mileage_project.int_mileage"
+[0m21:23:56.945448 [debug] [Thread-3 (]: Began executing node model.mileage_project.int_mileage
+[0m21:23:56.950830 [debug] [Thread-3 (]: Writing runtime sql for node "model.mileage_project.int_mileage"
+[0m21:23:56.953826 [debug] [Thread-3 (]: On model.mileage_project.int_mileage: /* {"app": "dbt", "dbt_version": "1.11.10", "profile_name": "mileage_project", "target_name": "dev", "node_id": "model.mileage_project.int_mileage"} */
+
+
+  create or replace view `mileage-495412`.`MileageData`.`int_mileage`
+  OPTIONS()
+  as with staging as (
+
+    select * from `mileage-495412`.`MileageData`.`mileage_transformed`
+),
+
+added_week as (
+
+    select *,
+        date_sub( mileage_date, interval 6 day) as week_start_date,
+        mileage_date as week_end_date,
+        concat( 
+            format_date( '%-d %b %y', date_sub( mileage_date, interval 6 day) ),
+            ' - ', 
+            format_date( '%-d %b %y', mileage_date ) 
+        ) as relevant_week
+    
+    from staging
+)
+
+select * from added_week;
+
+
+[0m21:23:56.953826 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m21:24:00.142871 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=mileage-495412&j=bq:EU:2ca5be2a-9f62-4e92-89aa-5d2e2b0beba8&page=queryresults
+[0m21:24:00.993696 [debug] [Thread-3 (]: SQL status: OK in 0.849 seconds
+[0m21:24:01.004090 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'dfeb25c3-d58f-4c90-856d-89dfa94199d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C3C295E80>]}
+[0m21:24:01.005638 [info ] [Thread-3 (]: 2 of 2 OK created sql view model MileageData.int_mileage ....................... [[32mCREATE VIEW (0 processed)[0m in 4.17s]
+[0m21:24:01.007969 [debug] [Thread-3 (]: Finished running node model.mileage_project.int_mileage
+[0m21:24:01.009997 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:24:01.057699 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:24:01.057699 [debug] [MainThread]: Connection 'list_mileage-495412' was properly closed.
+[0m21:24:01.058692 [debug] [MainThread]: Connection 'list_mileage-495412_MileageData' was properly closed.
+[0m21:24:01.058692 [debug] [MainThread]: Connection 'model.mileage_project.mileage_transformed' was properly closed.
+[0m21:24:01.058692 [debug] [MainThread]: Connection 'model.mileage_project.int_mileage' was properly closed.
+[0m21:24:01.060206 [info ] [MainThread]: 
+[0m21:24:01.061519 [info ] [MainThread]: Finished running 2 view models in 0 hours 0 minutes and 27.39 seconds (27.39s).
+[0m21:24:01.062732 [debug] [MainThread]: Command end result
+[0m21:24:01.102329 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\manifest.json
+[0m21:24:01.105386 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\semantic_manifest.json
+[0m21:24:01.113892 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\run_results.json
+[0m21:24:01.113892 [info ] [MainThread]: 
+[0m21:24:01.114897 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:24:01.114897 [info ] [MainThread]: 
+[0m21:24:01.115926 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m21:24:01.116896 [debug] [MainThread]: Command `dbt run` succeeded at 21:24:01.116896 after 54.97 seconds
+[0m21:24:01.116896 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C3C29D850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C3C323080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C2655B8C0>]}
+[0m21:24:01.117896 [debug] [MainThread]: Flushing usage events
+[0m21:24:02.490688 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:24:32.906997 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AAF7D2D550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AAFB256030>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AAFB255700>]}
+
+
+============================== 21:24:32.915630 | cd499944-55f6-48a3-b69e-b7ffa207f896 ==============================
+[0m21:24:32.915630 [info ] [MainThread]: Running with dbt=1.11.10
+[0m21:24:32.916631 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt test', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\NeilHanes\\OneDrive - MERCURY XRM LTD\\Desktop\\Sandbox\\SideProj\\dbt-mileage-project\\logs'}
+[0m21:24:37.015583 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'cd499944-55f6-48a3-b69e-b7ffa207f896', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AA90850680>]}
+[0m21:24:37.111590 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'cd499944-55f6-48a3-b69e-b7ffa207f896', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AA8F2CEFF0>]}
+[0m21:24:37.112589 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m21:24:37.996470 [debug] [MainThread]: checksum: 2f247960199844e016e6a527f21364251736722c6212f4b11e96849fe0fc9e96, vars: {}, profile: , target: , version: 1.11.10
+[0m21:24:38.315789 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:24:38.316791 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m21:24:38.317793 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:24:38.397174 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cd499944-55f6-48a3-b69e-b7ffa207f896', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AA90775E50>]}
+[0m21:24:38.574254 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\manifest.json
+[0m21:24:38.579255 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\semantic_manifest.json
+[0m21:24:38.629167 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'cd499944-55f6-48a3-b69e-b7ffa207f896', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AA90E59B20>]}
+[0m21:24:38.630167 [info ] [MainThread]: Found 2 models, 2 data tests, 1 source, 539 macros
+[0m21:24:38.631164 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'cd499944-55f6-48a3-b69e-b7ffa207f896', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AA90DDA690>]}
+[0m21:24:38.635163 [info ] [MainThread]: 
+[0m21:24:38.636167 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m21:24:38.637167 [info ] [MainThread]: 
+[0m21:24:38.640168 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m21:24:38.652167 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_mileage-495412_MileageData'
+[0m21:24:38.653167 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:24:41.227392 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'cd499944-55f6-48a3-b69e-b7ffa207f896', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AA8F76DE50>]}
+[0m21:24:41.228391 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:24:41.298217 [debug] [Thread-1 (]: Began running node test.mileage_project.source_not_null_mileage_source_Mileage_Column1.cce5defcde
+[0m21:24:41.299228 [debug] [Thread-2 (]: Began running node test.mileage_project.source_unique_mileage_source_Mileage_Column1.d6dd27b3c9
+[0m21:24:41.300219 [info ] [Thread-1 (]: 1 of 2 START test source_not_null_mileage_source_Mileage_Column1 ............... [RUN]
+[0m21:24:41.300219 [info ] [Thread-2 (]: 2 of 2 START test source_unique_mileage_source_Mileage_Column1 ................. [RUN]
+[0m21:24:41.301728 [debug] [Thread-1 (]: Acquiring new bigquery connection 'test.mileage_project.source_not_null_mileage_source_Mileage_Column1.cce5defcde'
+[0m21:24:41.303212 [debug] [Thread-2 (]: Acquiring new bigquery connection 'test.mileage_project.source_unique_mileage_source_Mileage_Column1.d6dd27b3c9'
+[0m21:24:41.304656 [debug] [Thread-1 (]: Began compiling node test.mileage_project.source_not_null_mileage_source_Mileage_Column1.cce5defcde
+[0m21:24:41.305664 [debug] [Thread-2 (]: Began compiling node test.mileage_project.source_unique_mileage_source_Mileage_Column1.d6dd27b3c9
+[0m21:24:41.359168 [debug] [Thread-2 (]: Writing injected SQL for node "test.mileage_project.source_unique_mileage_source_Mileage_Column1.d6dd27b3c9"
+[0m21:24:41.364177 [debug] [Thread-1 (]: Writing injected SQL for node "test.mileage_project.source_not_null_mileage_source_Mileage_Column1.cce5defcde"
+[0m21:24:41.367284 [debug] [Thread-2 (]: Began executing node test.mileage_project.source_unique_mileage_source_Mileage_Column1.d6dd27b3c9
+[0m21:24:41.514923 [debug] [Thread-1 (]: Began executing node test.mileage_project.source_not_null_mileage_source_Mileage_Column1.cce5defcde
+[0m21:24:41.551250 [debug] [Thread-2 (]: Writing runtime sql for node "test.mileage_project.source_unique_mileage_source_Mileage_Column1.d6dd27b3c9"
+[0m21:24:41.557732 [debug] [Thread-1 (]: Writing runtime sql for node "test.mileage_project.source_not_null_mileage_source_Mileage_Column1.cce5defcde"
+[0m21:24:41.561772 [debug] [Thread-2 (]: On test.mileage_project.source_unique_mileage_source_Mileage_Column1.d6dd27b3c9: /* {"app": "dbt", "dbt_version": "1.11.10", "profile_name": "mileage_project", "target_name": "dev", "node_id": "test.mileage_project.source_unique_mileage_source_Mileage_Column1.d6dd27b3c9"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with dbt_test__target as (
+
+  select Column1 as unique_field
+  from `mileage-495412`.`MileageData`.`Mileage`
+  where Column1 is not null
+
+)
+
+select
+    unique_field,
+    count(*) as n_records
+
+from dbt_test__target
+group by unique_field
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m21:24:41.563762 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m21:24:41.563762 [debug] [Thread-1 (]: On test.mileage_project.source_not_null_mileage_source_Mileage_Column1.cce5defcde: /* {"app": "dbt", "dbt_version": "1.11.10", "profile_name": "mileage_project", "target_name": "dev", "node_id": "test.mileage_project.source_not_null_mileage_source_Mileage_Column1.cce5defcde"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select Column1
+from `mileage-495412`.`MileageData`.`Mileage`
+where Column1 is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m21:24:41.566295 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m21:24:44.590863 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=mileage-495412&j=bq:EU:fabaae94-db2c-4c1a-a50c-e61786c235ce&page=queryresults
+[0m21:24:44.594860 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=mileage-495412&j=bq:EU:36f14a6d-0e09-4299-ad76-1848e6e2737e&page=queryresults
+[0m21:24:45.082120 [debug] [Thread-2 (]: SQL status: OK in 0.490 seconds
+[0m21:24:45.092711 [debug] [Thread-1 (]: SQL status: OK in 0.497 seconds
+[0m21:24:45.892260 [info ] [Thread-2 (]: 2 of 2 PASS source_unique_mileage_source_Mileage_Column1 ....................... [[32mPASS[0m in 4.59s]
+[0m21:24:45.896228 [info ] [Thread-1 (]: 1 of 2 PASS source_not_null_mileage_source_Mileage_Column1 ..................... [[32mPASS[0m in 4.59s]
+[0m21:24:45.897259 [debug] [Thread-2 (]: Finished running node test.mileage_project.source_unique_mileage_source_Mileage_Column1.d6dd27b3c9
+[0m21:24:45.898515 [debug] [Thread-1 (]: Finished running node test.mileage_project.source_not_null_mileage_source_Mileage_Column1.cce5defcde
+[0m21:24:45.900988 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:24:45.943576 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:24:45.944700 [debug] [MainThread]: Connection 'list_mileage-495412_MileageData' was properly closed.
+[0m21:24:45.944700 [debug] [MainThread]: Connection 'test.mileage_project.source_not_null_mileage_source_Mileage_Column1.cce5defcde' was properly closed.
+[0m21:24:45.945993 [debug] [MainThread]: Connection 'test.mileage_project.source_unique_mileage_source_Mileage_Column1.d6dd27b3c9' was properly closed.
+[0m21:24:45.945993 [info ] [MainThread]: 
+[0m21:24:45.947414 [info ] [MainThread]: Finished running 2 data tests in 0 hours 0 minutes and 7.31 seconds (7.31s).
+[0m21:24:45.949419 [debug] [MainThread]: Command end result
+[0m21:24:46.029174 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\manifest.json
+[0m21:24:46.034173 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\semantic_manifest.json
+[0m21:24:46.045166 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\run_results.json
+[0m21:24:46.045166 [info ] [MainThread]: 
+[0m21:24:46.046166 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:24:46.047524 [info ] [MainThread]: 
+[0m21:24:46.047524 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m21:24:46.048560 [debug] [MainThread]: Command `dbt test` succeeded at 21:24:46.048560 after 13.35 seconds
+[0m21:24:46.049898 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AAFB3B3980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AAFBB36810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AA910A0DD0>]}
+[0m21:24:46.049898 [debug] [MainThread]: Flushing usage events
+[0m21:24:48.926060 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:01:43.288212 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2B0A0B560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2B381EF30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2B381EEA0>]}
+
+
+============================== 11:01:43.295237 | cd4cc0d6-6fdf-486d-a90f-92bc3f206f2b ==============================
+[0m11:01:43.295237 [info ] [MainThread]: Running with dbt=1.11.10
+[0m11:01:43.296213 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt ', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'c:\\Users\\NeilHanes\\OneDrive - MERCURY XRM LTD\\Desktop\\Sandbox\\SideProj\\dbt-mileage-project\\logs'}
+[0m11:01:43.569063 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'cd4cc0d6-6fdf-486d-a90f-92bc3f206f2b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2B4049190>]}
+[0m11:01:43.607328 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m11:01:43.612327 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m11:01:43.615515 [debug] [MainThread]: Command `cli deps` succeeded at 11:01:43.615515 after 0.55 seconds
+[0m11:01:43.616516 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2B402B140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2B52F2060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2B52BFB30>]}
+[0m11:01:43.617507 [debug] [MainThread]: Flushing usage events
+[0m11:01:44.737522 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:47:51.628738 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029442AF0B60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294423EAA50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294423EAD50>]}
+
+
+============================== 11:47:51.634756 | 671947ca-d624-4485-aa8d-9165e0286f10 ==============================
+[0m11:47:51.634756 [info ] [MainThread]: Running with dbt=1.11.10
+[0m11:47:51.636757 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt ', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'c:\\Users\\NeilHanes\\OneDrive - MERCURY XRM LTD\\Desktop\\Sandbox\\SideProj\\dbt-mileage-project\\logs'}
+[0m11:47:51.996453 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '671947ca-d624-4485-aa8d-9165e0286f10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002944313A660>]}
+[0m11:47:52.036202 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m11:47:52.038205 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m11:47:52.041207 [debug] [MainThread]: Command `cli deps` succeeded at 11:47:52.040214 after 0.73 seconds
+[0m11:47:52.041207 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029442EB60C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029441997E60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029442976870>]}
+[0m11:47:52.042213 [debug] [MainThread]: Flushing usage events
+[0m11:47:53.125004 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:19:27.294987 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B411670710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B4115D9100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B410C05820>]}
+
+
+============================== 14:19:27.313607 | 6b7b0bfb-ee25-425d-81e7-0c056a83e643 ==============================
+[0m14:19:27.313607 [info ] [MainThread]: Running with dbt=1.11.10
+[0m14:19:27.314607 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\NeilHanes\\OneDrive - MERCURY XRM LTD\\Desktop\\Sandbox\\SideProj\\dbt-mileage-project\\logs'}
+[0m14:19:33.650127 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6b7b0bfb-ee25-425d-81e7-0c056a83e643', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B4260F0C20>]}
+[0m14:19:33.783580 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '6b7b0bfb-ee25-425d-81e7-0c056a83e643', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B41178F680>]}
+[0m14:19:33.785580 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m14:19:35.519540 [debug] [MainThread]: checksum: 2f247960199844e016e6a527f21364251736722c6212f4b11e96849fe0fc9e96, vars: {}, profile: , target: , version: 1.11.10
+[0m14:19:40.045631 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m14:19:40.046598 [debug] [MainThread]: Partial parsing: updated file: mileage_project://models\example\mileage_transformed.sql
+[0m14:19:40.673307 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6b7b0bfb-ee25-425d-81e7-0c056a83e643', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B4267E0E30>]}
+[0m14:19:41.046388 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\manifest.json
+[0m14:19:41.096897 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\semantic_manifest.json
+[0m14:19:41.142680 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6b7b0bfb-ee25-425d-81e7-0c056a83e643', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B4267E2C30>]}
+[0m14:19:41.143715 [info ] [MainThread]: Found 2 data tests, 2 models, 1 source, 539 macros
+[0m14:19:41.144715 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6b7b0bfb-ee25-425d-81e7-0c056a83e643', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B4265A8530>]}
+[0m14:19:41.147724 [info ] [MainThread]: 
+[0m14:19:41.149726 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m14:19:41.150728 [info ] [MainThread]: 
+[0m14:19:41.152982 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m14:19:41.166595 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_mileage-495412'
+[0m14:19:41.167595 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:19:43.632115 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_mileage-495412_MileageData'
+[0m14:19:43.633354 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:19:49.757400 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6b7b0bfb-ee25-425d-81e7-0c056a83e643', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B4104107D0>]}
+[0m14:19:49.760399 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:19:50.791497 [debug] [Thread-1 (]: Began running node model.mileage_project.mileage_transformed
+[0m14:19:50.795495 [info ] [Thread-1 (]: 1 of 2 START sql view model MileageData.mileage_transformed .................... [RUN]
+[0m14:19:50.812971 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.mileage_project.mileage_transformed'
+[0m14:19:50.816971 [debug] [Thread-1 (]: Began compiling node model.mileage_project.mileage_transformed
+[0m14:19:50.903268 [debug] [Thread-1 (]: Writing injected SQL for node "model.mileage_project.mileage_transformed"
+[0m14:19:50.925758 [debug] [Thread-1 (]: Began executing node model.mileage_project.mileage_transformed
+[0m14:19:51.279563 [debug] [Thread-1 (]: Writing runtime sql for node "model.mileage_project.mileage_transformed"
+[0m14:19:51.293565 [debug] [Thread-1 (]: On model.mileage_project.mileage_transformed: /* {"app": "dbt", "dbt_version": "1.11.10", "profile_name": "mileage_project", "target_name": "dev", "node_id": "model.mileage_project.mileage_transformed"} */
+
+
+  create or replace view `mileage-495412`.`MileageData`.`mileage_transformed`
+  OPTIONS()
+  as /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+with source_data as (
+
+    select 
+        Date as mileage_date,
+        Mileage                      as mileage,
+        Mileage_Diff                 as mileage_diff,
+        Notes                        as remarks
+    from
+        `mileage-495412`.`MileageData`.`Mileage`
+)
+
+select * from source_data;
+
+
+[0m14:19:51.303563 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m14:20:05.910631 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=mileage-495412&j=bq:EU:385165bf-ca84-4265-b0a1-952169354fe1&page=queryresults
+[0m14:20:06.727670 [debug] [Thread-1 (]: SQL status: OK in 0.810 seconds
+[0m14:22:05.893703 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6b7b0bfb-ee25-425d-81e7-0c056a83e643', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B424F91A00>]}
+[0m14:22:05.897699 [info ] [Thread-1 (]: 1 of 2 OK created sql view model MileageData.mileage_transformed ............... [[32mCREATE VIEW (0 processed)[0m in 135.07s]
+[0m14:22:05.907181 [debug] [Thread-1 (]: Finished running node model.mileage_project.mileage_transformed
+[0m14:22:05.917656 [debug] [Thread-3 (]: Began running node model.mileage_project.int_mileage
+[0m14:22:05.920657 [info ] [Thread-3 (]: 2 of 2 START sql view model MileageData.int_mileage ............................ [RUN]
+[0m14:22:05.945498 [debug] [Thread-3 (]: Acquiring new bigquery connection 'model.mileage_project.int_mileage'
+[0m14:22:05.947499 [debug] [Thread-3 (]: Began compiling node model.mileage_project.int_mileage
+[0m14:22:05.967480 [debug] [Thread-3 (]: Writing injected SQL for node "model.mileage_project.int_mileage"
+[0m14:22:06.000663 [debug] [Thread-3 (]: Began executing node model.mileage_project.int_mileage
+[0m14:22:06.020657 [debug] [Thread-3 (]: Writing runtime sql for node "model.mileage_project.int_mileage"
+[0m14:22:06.027660 [debug] [Thread-3 (]: On model.mileage_project.int_mileage: /* {"app": "dbt", "dbt_version": "1.11.10", "profile_name": "mileage_project", "target_name": "dev", "node_id": "model.mileage_project.int_mileage"} */
+
+
+  create or replace view `mileage-495412`.`MileageData`.`int_mileage`
+  OPTIONS()
+  as with staging as (
+
+    select * from `mileage-495412`.`MileageData`.`mileage_transformed`
+),
+
+added_week as (
+
+    select *,
+        date_sub( mileage_date, interval 6 day) as week_start_date,
+        mileage_date as week_end_date,
+        concat( 
+            format_date( '%-d %b %y', date_sub( mileage_date, interval 6 day) ),
+            ' - ', 
+            format_date( '%-d %b %y', mileage_date ) 
+        ) as relevant_week
+    
+    from staging
+)
+
+select * from added_week;
+
+
+[0m14:22:06.031662 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m14:22:14.468875 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=mileage-495412&j=bq:EU:d49b5325-cbab-47ba-bd82-359bdc4e7089&page=queryresults
+[0m14:22:16.179019 [debug] [Thread-3 (]: SQL status: OK in 1.708 seconds
+[0m14:22:16.196369 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6b7b0bfb-ee25-425d-81e7-0c056a83e643', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B426A91820>]}
+[0m14:22:16.199112 [info ] [Thread-3 (]: 2 of 2 OK created sql view model MileageData.int_mileage ....................... [[32mCREATE VIEW (0 processed)[0m in 10.25s]
+[0m14:22:16.203336 [debug] [Thread-3 (]: Finished running node model.mileage_project.int_mileage
+[0m14:22:16.208105 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m14:22:16.393645 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:22:16.395673 [debug] [MainThread]: Connection 'list_mileage-495412' was properly closed.
+[0m14:22:16.397688 [debug] [MainThread]: Connection 'list_mileage-495412_MileageData' was properly closed.
+[0m14:22:16.400958 [debug] [MainThread]: Connection 'model.mileage_project.mileage_transformed' was properly closed.
+[0m14:22:16.403957 [debug] [MainThread]: Connection 'model.mileage_project.int_mileage' was properly closed.
+[0m14:22:16.404956 [info ] [MainThread]: 
+[0m14:22:16.407409 [info ] [MainThread]: Finished running 2 view models in 0 hours 2 minutes and 35.25 seconds (155.25s).
+[0m14:22:16.414469 [debug] [MainThread]: Command end result
+[0m14:22:16.639256 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\manifest.json
+[0m14:22:16.652258 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\semantic_manifest.json
+[0m14:22:16.684891 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\run_results.json
+[0m14:22:16.685893 [info ] [MainThread]: 
+[0m14:22:16.688890 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:22:16.690894 [info ] [MainThread]: 
+[0m14:22:16.693216 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m14:22:16.698318 [debug] [MainThread]: Command `dbt run` succeeded at 14:22:16.697216 after 169.72 seconds
+[0m14:22:16.701319 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B411640AA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B410FA8EF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B410FA89B0>]}
+[0m14:22:16.704324 [debug] [MainThread]: Flushing usage events
+[0m14:22:19.247552 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:23:04.118109 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AB1EDCF440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AB1C5EB530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AB1FB010A0>]}
+
+
+============================== 14:23:04.124117 | d05ad2f3-9d21-4fb6-8128-e2eae073683d ==============================
+[0m14:23:04.124117 [info ] [MainThread]: Running with dbt=1.11.10
+[0m14:23:04.125119 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt ', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'c:\\Users\\NeilHanes\\OneDrive - MERCURY XRM LTD\\Desktop\\Sandbox\\SideProj\\dbt-mileage-project\\logs'}
+[0m14:23:04.382132 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd05ad2f3-9d21-4fb6-8128-e2eae073683d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AB1FC2C470>]}
+[0m14:23:04.436838 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m14:23:04.440315 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m14:23:04.441839 [debug] [MainThread]: Command `cli deps` succeeded at 14:23:04.441839 after 0.54 seconds
+[0m14:23:04.443340 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AB1E8DF350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AB20CA5040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AB1F416BD0>]}
+[0m14:23:04.444381 [debug] [MainThread]: Flushing usage events
+[0m14:23:05.453561 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:32:22.806314 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001883A102F30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001883A1037A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001883A103710>]}
+
+
+============================== 14:32:22.811317 | 79a8b14d-72bc-4746-a714-e0e69a85a839 ==============================
+[0m14:32:22.811317 [info ] [MainThread]: Running with dbt=1.11.10
+[0m14:32:22.812315 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\NeilHanes\\OneDrive - MERCURY XRM LTD\\Desktop\\Sandbox\\SideProj\\dbt-mileage-project\\logs'}
+[0m14:32:24.979690 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '79a8b14d-72bc-4746-a714-e0e69a85a839', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001884E0241D0>]}
+[0m14:32:25.048259 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '79a8b14d-72bc-4746-a714-e0e69a85a839', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001884DE4C8C0>]}
+[0m14:32:25.049260 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m14:32:25.923396 [debug] [MainThread]: checksum: 2f247960199844e016e6a527f21364251736722c6212f4b11e96849fe0fc9e96, vars: {}, profile: , target: , version: 1.11.10
+[0m14:32:29.008047 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:32:29.009047 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m14:32:29.010046 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:32:29.058641 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '79a8b14d-72bc-4746-a714-e0e69a85a839', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001884F528EC0>]}
+[0m14:32:29.163357 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\manifest.json
+[0m14:32:29.184607 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\semantic_manifest.json
+[0m14:32:29.198778 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '79a8b14d-72bc-4746-a714-e0e69a85a839', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001884F79FCE0>]}
+[0m14:32:29.200280 [info ] [MainThread]: Found 2 models, 2 data tests, 1 source, 539 macros
+[0m14:32:29.200280 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '79a8b14d-72bc-4746-a714-e0e69a85a839', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001884F7AAED0>]}
+[0m14:32:29.203333 [info ] [MainThread]: 
+[0m14:32:29.203333 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m14:32:29.204332 [info ] [MainThread]: 
+[0m14:32:29.205330 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m14:32:29.209334 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_mileage-495412'
+[0m14:32:29.210340 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:32:30.334714 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_mileage-495412_MileageData'
+[0m14:32:30.335716 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:32:31.402849 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '79a8b14d-72bc-4746-a714-e0e69a85a839', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001884F7AAED0>]}
+[0m14:32:31.403849 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:32:31.451026 [debug] [Thread-1 (]: Began running node model.mileage_project.mileage_transformed
+[0m14:32:31.451026 [info ] [Thread-1 (]: 1 of 2 START sql view model MileageData.mileage_transformed .................... [RUN]
+[0m14:32:31.452030 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.mileage_project.mileage_transformed'
+[0m14:32:31.453026 [debug] [Thread-1 (]: Began compiling node model.mileage_project.mileage_transformed
+[0m14:32:31.462025 [debug] [Thread-1 (]: Writing injected SQL for node "model.mileage_project.mileage_transformed"
+[0m14:32:31.463993 [debug] [Thread-1 (]: Began executing node model.mileage_project.mileage_transformed
+[0m14:32:31.501831 [debug] [Thread-1 (]: Writing runtime sql for node "model.mileage_project.mileage_transformed"
+[0m14:32:31.504117 [debug] [Thread-1 (]: On model.mileage_project.mileage_transformed: /* {"app": "dbt", "dbt_version": "1.11.10", "profile_name": "mileage_project", "target_name": "dev", "node_id": "model.mileage_project.mileage_transformed"} */
+
+
+  create or replace view `mileage-495412`.`MileageData`.`mileage_transformed`
+  OPTIONS()
+  as /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+with source_data as (
+
+    select 
+        Date as mileage_date,
+        m.Mileage                       as weekly_mileage,
+        Mileage_Diff                    as mileage_diff,
+        Notes                           as remarks
+    from
+        `mileage-495412`.`MileageData`.`Mileage` as m
+)
+
+select * from source_data;
+
+
+[0m14:32:31.504117 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m14:32:32.993298 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=mileage-495412&j=bq:EU:319ae89c-c34d-49c4-917c-bc9c650a983e&page=queryresults
+[0m14:32:33.417745 [debug] [Thread-1 (]: SQL status: OK in 0.424 seconds
+[0m14:32:48.326257 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '79a8b14d-72bc-4746-a714-e0e69a85a839', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018839A9B680>]}
+[0m14:32:48.328261 [info ] [Thread-1 (]: 1 of 2 OK created sql view model MileageData.mileage_transformed ............... [[32mCREATE VIEW (0 processed)[0m in 16.87s]
+[0m14:32:48.329264 [debug] [Thread-1 (]: Finished running node model.mileage_project.mileage_transformed
+[0m14:32:48.332255 [debug] [Thread-3 (]: Began running node model.mileage_project.int_mileage
+[0m14:32:48.333255 [info ] [Thread-3 (]: 2 of 2 START sql view model MileageData.int_mileage ............................ [RUN]
+[0m14:32:48.335254 [debug] [Thread-3 (]: Acquiring new bigquery connection 'model.mileage_project.int_mileage'
+[0m14:32:48.337255 [debug] [Thread-3 (]: Began compiling node model.mileage_project.int_mileage
+[0m14:32:48.462587 [debug] [Thread-3 (]: Writing injected SQL for node "model.mileage_project.int_mileage"
+[0m14:32:48.465587 [debug] [Thread-3 (]: Began executing node model.mileage_project.int_mileage
+[0m14:32:48.473646 [debug] [Thread-3 (]: Writing runtime sql for node "model.mileage_project.int_mileage"
+[0m14:32:48.477646 [debug] [Thread-3 (]: On model.mileage_project.int_mileage: /* {"app": "dbt", "dbt_version": "1.11.10", "profile_name": "mileage_project", "target_name": "dev", "node_id": "model.mileage_project.int_mileage"} */
+
+
+  create or replace view `mileage-495412`.`MileageData`.`int_mileage`
+  OPTIONS()
+  as with staging as (
+
+    select * from `mileage-495412`.`MileageData`.`mileage_transformed`
+),
+
+added_week as (
+
+    select *,
+        date_sub( mileage_date, interval 6 day) as week_start_date,
+        mileage_date as week_end_date,
+        concat( 
+            format_date( '%-d %b %y', date_sub( mileage_date, interval 6 day) ),
+            ' - ', 
+            format_date( '%-d %b %y', mileage_date ) 
+        ) as relevant_week
+    
+    from staging
+)
+
+select * from added_week;
+
+
+[0m14:32:48.479637 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m14:32:51.843516 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=mileage-495412&j=bq:EU:0d718764-dc0c-417f-88c3-43d1ba994cc6&page=queryresults
+[0m14:32:52.241108 [debug] [Thread-3 (]: SQL status: OK in 0.397 seconds
+[0m14:32:52.248102 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '79a8b14d-72bc-4746-a714-e0e69a85a839', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001883A0D9EB0>]}
+[0m14:32:52.249103 [info ] [Thread-3 (]: 2 of 2 OK created sql view model MileageData.int_mileage ....................... [[32mCREATE VIEW (0 processed)[0m in 3.91s]
+[0m14:32:52.251062 [debug] [Thread-3 (]: Finished running node model.mileage_project.int_mileage
+[0m14:32:52.253063 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m14:32:52.320597 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:32:52.321820 [debug] [MainThread]: Connection 'list_mileage-495412' was properly closed.
+[0m14:32:52.321820 [debug] [MainThread]: Connection 'list_mileage-495412_MileageData' was properly closed.
+[0m14:32:52.321820 [debug] [MainThread]: Connection 'model.mileage_project.mileage_transformed' was properly closed.
+[0m14:32:52.323366 [debug] [MainThread]: Connection 'model.mileage_project.int_mileage' was properly closed.
+[0m14:32:52.325392 [info ] [MainThread]: 
+[0m14:32:52.326379 [info ] [MainThread]: Finished running 2 view models in 0 hours 0 minutes and 23.12 seconds (23.12s).
+[0m14:32:52.328392 [debug] [MainThread]: Command end result
+[0m14:32:52.392729 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\manifest.json
+[0m14:32:52.398729 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\semantic_manifest.json
+[0m14:32:52.414228 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\run_results.json
+[0m14:32:52.415227 [info ] [MainThread]: 
+[0m14:32:52.417271 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:32:52.418228 [info ] [MainThread]: 
+[0m14:32:52.420243 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m14:32:52.422229 [debug] [MainThread]: Command `dbt run` succeeded at 14:32:52.422229 after 29.82 seconds
+[0m14:32:52.423737 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018839F75F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018839B4A2A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018839B4A240>]}
+[0m14:32:52.424772 [debug] [MainThread]: Flushing usage events
+[0m14:32:53.851428 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:34:13.637307 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDDE49EAB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDE07807A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDE0780770>]}
+
+
+============================== 14:34:13.643591 | 769c5309-d184-4c96-b5fa-b29da708c40a ==============================
+[0m14:34:13.643591 [info ] [MainThread]: Running with dbt=1.11.10
+[0m14:34:13.644554 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\NeilHanes\\OneDrive - MERCURY XRM LTD\\Desktop\\Sandbox\\SideProj\\dbt-mileage-project\\logs'}
+[0m14:34:16.441977 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '769c5309-d184-4c96-b5fa-b29da708c40a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDF51A0CE0>]}
+[0m14:34:16.532542 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '769c5309-d184-4c96-b5fa-b29da708c40a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDDE673140>]}
+[0m14:34:16.534543 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m14:34:17.433885 [debug] [MainThread]: checksum: 2f247960199844e016e6a527f21364251736722c6212f4b11e96849fe0fc9e96, vars: {}, profile: , target: , version: 1.11.10
+[0m14:34:17.668782 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:34:17.669781 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m14:34:17.670782 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:34:17.740718 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '769c5309-d184-4c96-b5fa-b29da708c40a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDF6487A10>]}
+[0m14:34:17.898209 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\manifest.json
+[0m14:34:17.902597 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\semantic_manifest.json
+[0m14:34:17.923399 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '769c5309-d184-4c96-b5fa-b29da708c40a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDE06F89B0>]}
+[0m14:34:17.924729 [info ] [MainThread]: Found 2 models, 2 data tests, 1 source, 539 macros
+[0m14:34:17.925772 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '769c5309-d184-4c96-b5fa-b29da708c40a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDF63F7DD0>]}
+[0m14:34:17.927796 [info ] [MainThread]: 
+[0m14:34:17.928795 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m14:34:17.929796 [info ] [MainThread]: 
+[0m14:34:17.930798 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m14:34:17.937139 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_mileage-495412'
+[0m14:34:17.939134 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:34:19.591734 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_mileage-495412_MileageData'
+[0m14:34:19.593894 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:34:21.088532 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '769c5309-d184-4c96-b5fa-b29da708c40a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDF631A0C0>]}
+[0m14:34:21.089518 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:34:21.181409 [debug] [Thread-1 (]: Began running node model.mileage_project.mileage_transformed
+[0m14:34:21.183409 [info ] [Thread-1 (]: 1 of 2 START sql view model MileageData.mileage_transformed .................... [RUN]
+[0m14:34:21.185408 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.mileage_project.mileage_transformed'
+[0m14:34:21.186408 [debug] [Thread-1 (]: Began compiling node model.mileage_project.mileage_transformed
+[0m14:34:21.222035 [debug] [Thread-1 (]: Writing injected SQL for node "model.mileage_project.mileage_transformed"
+[0m14:34:21.226036 [debug] [Thread-1 (]: Began executing node model.mileage_project.mileage_transformed
+[0m14:34:21.334436 [debug] [Thread-1 (]: Writing runtime sql for node "model.mileage_project.mileage_transformed"
+[0m14:34:21.340434 [debug] [Thread-1 (]: On model.mileage_project.mileage_transformed: /* {"app": "dbt", "dbt_version": "1.11.10", "profile_name": "mileage_project", "target_name": "dev", "node_id": "model.mileage_project.mileage_transformed"} */
+
+
+  create or replace view `mileage-495412`.`MileageData`.`mileage_transformed`
+  OPTIONS()
+  as /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+with source_data as (
+
+    select 
+        Date as mileage_date,
+        m.Mileage                       as total_mileage,
+        Mileage_Diff                    as weekly_mileage,
+        Notes                           as remarks
+    from
+        `mileage-495412`.`MileageData`.`Mileage` as m
+)
+
+select * from source_data;
+
+
+[0m14:34:21.343632 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m14:34:24.425920 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=mileage-495412&j=bq:EU:cb065bed-2df8-4fcb-bf8c-4e52867e0ae9&page=queryresults
+[0m14:34:24.720742 [debug] [Thread-1 (]: SQL status: OK in 0.292 seconds
+[0m14:34:25.138387 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '769c5309-d184-4c96-b5fa-b29da708c40a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDF69F4470>]}
+[0m14:34:25.141384 [info ] [Thread-1 (]: 1 of 2 OK created sql view model MileageData.mileage_transformed ............... [[32mCREATE VIEW (0 processed)[0m in 3.94s]
+[0m14:34:25.145712 [debug] [Thread-1 (]: Finished running node model.mileage_project.mileage_transformed
+[0m14:34:25.148714 [debug] [Thread-3 (]: Began running node model.mileage_project.int_mileage
+[0m14:34:25.152055 [info ] [Thread-3 (]: 2 of 2 START sql view model MileageData.int_mileage ............................ [RUN]
+[0m14:34:25.157054 [debug] [Thread-3 (]: Acquiring new bigquery connection 'model.mileage_project.int_mileage'
+[0m14:34:25.160055 [debug] [Thread-3 (]: Began compiling node model.mileage_project.int_mileage
+[0m14:34:25.407911 [debug] [Thread-3 (]: Writing injected SQL for node "model.mileage_project.int_mileage"
+[0m14:34:25.412959 [debug] [Thread-3 (]: Began executing node model.mileage_project.int_mileage
+[0m14:34:25.423581 [debug] [Thread-3 (]: Writing runtime sql for node "model.mileage_project.int_mileage"
+[0m14:34:25.431014 [debug] [Thread-3 (]: On model.mileage_project.int_mileage: /* {"app": "dbt", "dbt_version": "1.11.10", "profile_name": "mileage_project", "target_name": "dev", "node_id": "model.mileage_project.int_mileage"} */
+
+
+  create or replace view `mileage-495412`.`MileageData`.`int_mileage`
+  OPTIONS()
+  as with staging as (
+
+    select * from `mileage-495412`.`MileageData`.`mileage_transformed`
+),
+
+added_week as (
+
+    select *,
+        date_sub( mileage_date, interval 6 day) as week_start_date,
+        mileage_date as week_end_date,
+        concat( 
+            format_date( '%-d %b %y', date_sub( mileage_date, interval 6 day) ),
+            ' - ', 
+            format_date( '%-d %b %y', mileage_date ) 
+        ) as relevant_week
+    
+    from staging
+)
+
+select * from added_week;
+
+
+[0m14:34:25.433458 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m14:34:29.390947 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=mileage-495412&j=bq:EU:2b35332a-95ca-44e6-8ecc-4a9c75577a30&page=queryresults
+[0m14:34:29.742478 [debug] [Thread-3 (]: SQL status: OK in 0.349 seconds
+[0m14:34:29.760477 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '769c5309-d184-4c96-b5fa-b29da708c40a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDF696D040>]}
+[0m14:34:29.763478 [info ] [Thread-3 (]: 2 of 2 OK created sql view model MileageData.int_mileage ....................... [[32mCREATE VIEW (0 processed)[0m in 4.60s]
+[0m14:34:29.784861 [debug] [Thread-3 (]: Finished running node model.mileage_project.int_mileage
+[0m14:34:29.790864 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m14:34:30.020767 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:34:30.023770 [debug] [MainThread]: Connection 'list_mileage-495412' was properly closed.
+[0m14:34:30.024769 [debug] [MainThread]: Connection 'list_mileage-495412_MileageData' was properly closed.
+[0m14:34:30.026769 [debug] [MainThread]: Connection 'model.mileage_project.mileage_transformed' was properly closed.
+[0m14:34:30.027771 [debug] [MainThread]: Connection 'model.mileage_project.int_mileage' was properly closed.
+[0m14:34:30.030770 [info ] [MainThread]: 
+[0m14:34:30.064742 [info ] [MainThread]: Finished running 2 view models in 0 hours 0 minutes and 12.10 seconds (12.10s).
+[0m14:34:30.224791 [debug] [MainThread]: Command end result
+[0m14:34:30.441163 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\manifest.json
+[0m14:34:30.487164 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\semantic_manifest.json
+[0m14:34:30.561484 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\run_results.json
+[0m14:34:30.563483 [info ] [MainThread]: 
+[0m14:34:30.634316 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:34:30.678883 [info ] [MainThread]: 
+[0m14:34:30.723087 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m14:34:30.769481 [debug] [MainThread]: Command `dbt run` succeeded at 14:34:30.768481 after 17.33 seconds
+[0m14:34:30.776482 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDE1763BC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDE19ACA10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDE07807A0>]}
+[0m14:34:30.778482 [debug] [MainThread]: Flushing usage events
+[0m14:34:33.580215 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:37:24.489094 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001947406B620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000194739DF5C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000194712AEBA0>]}
+
+
+============================== 15:37:24.523705 | 5bc44417-f452-4a03-8d00-43143b0a95de ==============================
+[0m15:37:24.523705 [info ] [MainThread]: Running with dbt=1.11.10
+[0m15:37:24.537701 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\NeilHanes\\OneDrive - MERCURY XRM LTD\\Desktop\\Sandbox\\SideProj\\dbt-mileage-project\\logs'}
+[0m15:38:01.186411 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '5bc44417-f452-4a03-8d00-43143b0a95de', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019409351F10>]}
+[0m15:38:02.199742 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '5bc44417-f452-4a03-8d00-43143b0a95de', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019407F81730>]}
+[0m15:38:02.207742 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m15:38:19.644278 [debug] [MainThread]: checksum: 2f247960199844e016e6a527f21364251736722c6212f4b11e96849fe0fc9e96, vars: {}, profile: , target: , version: 1.11.10
+[0m15:38:56.158159 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m15:38:56.164200 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m15:38:56.196766 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m15:38:56.857454 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '5bc44417-f452-4a03-8d00-43143b0a95de', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019409629370>]}
+[0m15:38:58.960258 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\manifest.json
+[0m15:38:59.837738 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\semantic_manifest.json
+[0m15:39:00.192368 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5bc44417-f452-4a03-8d00-43143b0a95de', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019409905880>]}
+[0m15:39:00.199366 [info ] [MainThread]: Found 2 models, 2 data tests, 2 sources, 539 macros
+[0m15:39:00.222132 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5bc44417-f452-4a03-8d00-43143b0a95de', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001940992E6F0>]}
+[0m15:39:00.344024 [info ] [MainThread]: 
+[0m15:39:00.464078 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m15:39:00.566787 [info ] [MainThread]: 
+[0m15:39:00.669567 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m15:39:00.849963 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_mileage-495412'
+[0m15:39:00.859964 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:39:19.586852 [debug] [ThreadPool]: BigQuery adapter: Retry attempt 1 of 1 after error: SSLError(MaxRetryError("HTTPSConnectionPool(host='bigquery.googleapis.com', port=443): Max retries exceeded with url: /bigquery/v2/projects/mileage-495412/datasets?maxResults=10000&prettyPrint=false (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))"))
+[0m15:39:19.593883 [warn ] [ThreadPool]: BigQuery adapter: Reopening connection after SSLError(MaxRetryError("HTTPSConnectionPool(host='bigquery.googleapis.com', port=443): Max retries exceeded with url: /bigquery/v2/projects/mileage-495412/datasets?maxResults=10000&prettyPrint=false (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))"))
+[0m15:39:35.612693 [debug] [ThreadPool]: BigQuery adapter: Unhandled error while running:
+list dataset
+[0m15:39:35.615693 [debug] [ThreadPool]: BigQuery adapter: HTTPSConnectionPool(host='bigquery.googleapis.com', port=443): Max retries exceeded with url: /bigquery/v2/projects/mileage-495412/datasets?maxResults=10000&prettyPrint=false (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))
+[0m15:39:35.651834 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:39:36.580085 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:39:36.594083 [debug] [MainThread]: Connection 'list_mileage-495412' was properly closed.
+[0m15:39:36.644620 [info ] [MainThread]: 
+[0m15:39:36.665812 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 35.93 seconds (35.93s).
+[0m15:39:36.816984 [error] [MainThread]: Encountered an error:
+Database Error
+  HTTPSConnectionPool(host='bigquery.googleapis.com', port=443): Max retries exceeded with url: /bigquery/v2/projects/mileage-495412/datasets?maxResults=10000&prettyPrint=false (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))
+[0m15:39:36.932065 [debug] [MainThread]: Command `dbt run` failed at 15:39:36.930960 after 134.67 seconds
+[0m15:39:36.936063 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000194742561E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001940992CA70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001940992FC50>]}
+[0m15:39:36.939060 [debug] [MainThread]: Flushing usage events
+[0m15:39:47.246282 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:45:21.726876 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002275FD0D730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002275F0D8050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002275F0D9A90>]}
+
+
+============================== 15:45:21.754890 | 3391ff88-96f8-453f-af0f-0c7093d73137 ==============================
+[0m15:45:21.754890 [info ] [MainThread]: Running with dbt=1.11.10
+[0m15:45:21.761807 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\NeilHanes\\OneDrive - MERCURY XRM LTD\\Desktop\\Sandbox\\SideProj\\dbt-mileage-project\\logs'}
+[0m15:45:22.004898 [info ] [MainThread]: dbt version: 1.11.10
+[0m15:45:22.011942 [info ] [MainThread]: python version: 3.12.0
+[0m15:45:22.018934 [info ] [MainThread]: python path: C:\Users\NeilHanes\AppData\Local\Programs\Python\Python312\python.exe
+[0m15:45:22.025540 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m15:45:42.390397 [info ] [MainThread]: Using profiles dir at C:\Users\NeilHanes\.dbt
+[0m15:45:42.398404 [info ] [MainThread]: Using profiles.yml file at C:\Users\NeilHanes\.dbt\profiles.yml
+[0m15:45:42.419141 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\dbt_project.yml
+[0m15:45:42.438436 [info ] [MainThread]: adapter type: bigquery
+[0m15:45:42.461483 [info ] [MainThread]: adapter version: 1.11.1
+[0m15:45:44.346674 [info ] [MainThread]: Configuration:
+[0m15:45:44.353810 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:45:44.361324 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m15:45:44.372517 [info ] [MainThread]: Required dependencies:
+[0m15:45:44.379512 [debug] [MainThread]: Executing "git --help"
+[0m15:45:44.927049 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:45:44.934234 [debug] [MainThread]: STDERR: "b''"
+[0m15:45:44.940237 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:45:44.946241 [info ] [MainThread]: Connection:
+[0m15:45:44.959326 [info ] [MainThread]:   method: service-account
+[0m15:45:44.970907 [info ] [MainThread]:   database: mileage-495412
+[0m15:45:44.999361 [info ] [MainThread]:   execution_project: mileage-495412
+[0m15:45:45.006607 [info ] [MainThread]:   schema: MileageData
+[0m15:45:45.037606 [info ] [MainThread]:   location: EU
+[0m15:45:45.059638 [info ] [MainThread]:   priority: interactive
+[0m15:45:45.068633 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m15:45:45.079222 [info ] [MainThread]:   impersonate_service_account: None
+[0m15:45:45.085220 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m15:45:45.101221 [info ] [MainThread]:   job_retries: 1
+[0m15:45:45.114518 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m15:45:45.122530 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m15:45:45.127999 [info ] [MainThread]:   timeout_seconds: 300
+[0m15:45:45.136709 [info ] [MainThread]:   client_id: None
+[0m15:45:45.150036 [info ] [MainThread]:   token_uri: None
+[0m15:45:45.159075 [info ] [MainThread]:   compute_region: None
+[0m15:45:45.164083 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m15:45:45.170608 [info ] [MainThread]:   gcs_bucket: None
+[0m15:45:45.177643 [info ] [MainThread]:   dataproc_batch: None
+[0m15:45:45.203651 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m15:45:53.183660 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m15:45:53.187186 [debug] [MainThread]: On debug: select 1 as id
+[0m15:45:53.191226 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:46:03.383692 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=mileage-495412&j=bq:EU:40102f3d-3170-46ba-9d3d-a90054672359&page=queryresults
+[0m15:46:03.578727 [debug] [MainThread]: SQL status: OK in 0.187 seconds
+[0m15:46:52.075071 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m15:46:52.085066 [info ] [MainThread]: [32mAll checks passed![0m
+[0m15:46:52.134083 [debug] [MainThread]: Command `dbt debug` succeeded at 15:46:52.133078 after 91.50 seconds
+[0m15:46:52.145089 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m15:46:52.157091 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002275FEF83E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002275EBD1220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022774C88890>]}
+[0m15:46:52.187085 [debug] [MainThread]: Flushing usage events
+[0m15:46:57.387336 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:50:15.560210 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D728DEEA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D756CD6A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D756CC800>]}
+
+
+============================== 15:50:15.600050 | 3be89202-8cdd-44aa-9c94-910ad625c8f6 ==============================
+[0m15:50:15.600050 [info ] [MainThread]: Running with dbt=1.11.10
+[0m15:50:15.652052 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\NeilHanes\\OneDrive - MERCURY XRM LTD\\Desktop\\Sandbox\\SideProj\\dbt-mileage-project\\logs'}
+[0m15:52:39.039819 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3be89202-8cdd-44aa-9c94-910ad625c8f6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D09505130>]}
+[0m15:52:41.466861 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3be89202-8cdd-44aa-9c94-910ad625c8f6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D08F6EFF0>]}
+[0m15:52:41.479860 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m15:52:50.740528 [debug] [MainThread]: checksum: 2f247960199844e016e6a527f21364251736722c6212f4b11e96849fe0fc9e96, vars: {}, profile: , target: , version: 1.11.10
+[0m15:52:51.787823 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m15:52:51.789823 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m15:52:51.791822 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m15:52:52.097980 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '3be89202-8cdd-44aa-9c94-910ad625c8f6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D098C0AA0>]}
+[0m15:52:52.689957 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\manifest.json
+[0m15:52:52.699958 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\semantic_manifest.json
+[0m15:52:52.762860 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3be89202-8cdd-44aa-9c94-910ad625c8f6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D0AF25880>]}
+[0m15:52:52.765378 [info ] [MainThread]: Found 2 models, 2 data tests, 2 sources, 539 macros
+[0m15:52:52.772400 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3be89202-8cdd-44aa-9c94-910ad625c8f6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D744E7D70>]}
+[0m15:52:52.779398 [info ] [MainThread]: 
+[0m15:52:52.784399 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m15:52:52.792400 [info ] [MainThread]: 
+[0m15:52:52.800399 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m15:52:52.839574 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_mileage-495412'
+[0m15:52:52.846117 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:52:58.132303 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_mileage-495412_MileageData'
+[0m15:52:58.135303 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:53:03.514326 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3be89202-8cdd-44aa-9c94-910ad625c8f6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D0988A060>]}
+[0m15:53:03.517325 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:53:04.065058 [debug] [Thread-1 (]: Began running node model.mileage_project.mileage_transformed
+[0m15:53:04.068054 [info ] [Thread-1 (]: 1 of 2 START sql view model MileageData.mileage_transformed .................... [RUN]
+[0m15:53:04.071055 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.mileage_project.mileage_transformed'
+[0m15:53:04.074431 [debug] [Thread-1 (]: Began compiling node model.mileage_project.mileage_transformed
+[0m15:53:04.231023 [debug] [Thread-1 (]: Writing injected SQL for node "model.mileage_project.mileage_transformed"
+[0m15:53:04.236024 [debug] [Thread-1 (]: Began executing node model.mileage_project.mileage_transformed
+[0m15:53:04.459108 [debug] [Thread-1 (]: Writing runtime sql for node "model.mileage_project.mileage_transformed"
+[0m15:53:04.463108 [debug] [Thread-1 (]: On model.mileage_project.mileage_transformed: /* {"app": "dbt", "dbt_version": "1.11.10", "profile_name": "mileage_project", "target_name": "dev", "node_id": "model.mileage_project.mileage_transformed"} */
+
+
+  create or replace view `mileage-495412`.`MileageData`.`mileage_transformed`
+  OPTIONS()
+  as /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+with source_data as (
+
+    select 
+        Date as mileage_date,
+        m.Mileage                       as total_mileage,
+        Mileage_Diff                    as weekly_mileage,
+        Notes                           as remarks
+    from
+        `mileage-495412`.`MileageData`.`raw_mileage` as m
+)
+
+select * from source_data;
+
+
+[0m15:53:04.478744 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m15:53:10.187506 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=mileage-495412&j=bq:EU:072bf28b-22cf-4991-99d8-0d0ac6a37f20&page=queryresults
+[0m15:53:10.651512 [debug] [Thread-1 (]: SQL status: OK in 0.462 seconds
+[0m15:53:11.847987 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3be89202-8cdd-44aa-9c94-910ad625c8f6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D750CB860>]}
+[0m15:53:11.851004 [info ] [Thread-1 (]: 1 of 2 OK created sql view model MileageData.mileage_transformed ............... [[32mCREATE VIEW (0 processed)[0m in 7.73s]
+[0m15:53:11.861333 [debug] [Thread-1 (]: Finished running node model.mileage_project.mileage_transformed
+[0m15:53:11.864853 [debug] [Thread-3 (]: Began running node model.mileage_project.int_mileage
+[0m15:53:11.867870 [info ] [Thread-3 (]: 2 of 2 START sql view model MileageData.int_mileage ............................ [RUN]
+[0m15:53:11.905872 [debug] [Thread-3 (]: Acquiring new bigquery connection 'model.mileage_project.int_mileage'
+[0m15:53:11.908872 [debug] [Thread-3 (]: Began compiling node model.mileage_project.int_mileage
+[0m15:53:11.927871 [debug] [Thread-3 (]: Writing injected SQL for node "model.mileage_project.int_mileage"
+[0m15:53:11.944872 [debug] [Thread-3 (]: Began executing node model.mileage_project.int_mileage
+[0m15:53:11.957893 [debug] [Thread-3 (]: Writing runtime sql for node "model.mileage_project.int_mileage"
+[0m15:53:11.985419 [debug] [Thread-3 (]: On model.mileage_project.int_mileage: /* {"app": "dbt", "dbt_version": "1.11.10", "profile_name": "mileage_project", "target_name": "dev", "node_id": "model.mileage_project.int_mileage"} */
+
+
+  create or replace view `mileage-495412`.`MileageData`.`int_mileage`
+  OPTIONS()
+  as with staging as (
+
+    select * from `mileage-495412`.`MileageData`.`mileage_transformed`
+),
+
+added_week as (
+
+    select *,
+        date_sub( mileage_date, interval 6 day) as week_start_date,
+        mileage_date as week_end_date,
+        concat( 
+            format_date( '%-d %b %y', date_sub( mileage_date, interval 6 day) ),
+            ' - ', 
+            format_date( '%-d %b %y', mileage_date ) 
+        ) as relevant_week
+    
+    from staging
+)
+
+select * from added_week;
+
+
+[0m15:53:11.987419 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m15:53:18.925320 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=mileage-495412&j=bq:EU:d4095453-7233-47db-9b5c-0b0c0165a703&page=queryresults
+[0m15:53:19.298449 [debug] [Thread-3 (]: SQL status: OK in 0.371 seconds
+[0m15:53:19.314447 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3be89202-8cdd-44aa-9c94-910ad625c8f6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D0ADCBEF0>]}
+[0m15:53:19.317447 [info ] [Thread-3 (]: 2 of 2 OK created sql view model MileageData.int_mileage ....................... [[32mCREATE VIEW (0 processed)[0m in 7.41s]
+[0m15:53:19.360814 [debug] [Thread-3 (]: Finished running node model.mileage_project.int_mileage
+[0m15:53:19.372327 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m15:53:19.634326 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:53:19.641326 [debug] [MainThread]: Connection 'list_mileage-495412' was properly closed.
+[0m15:53:19.642326 [debug] [MainThread]: Connection 'list_mileage-495412_MileageData' was properly closed.
+[0m15:53:19.644326 [debug] [MainThread]: Connection 'model.mileage_project.mileage_transformed' was properly closed.
+[0m15:53:19.646330 [debug] [MainThread]: Connection 'model.mileage_project.int_mileage' was properly closed.
+[0m15:53:19.701878 [info ] [MainThread]: 
+[0m15:53:19.713365 [info ] [MainThread]: Finished running 2 view models in 0 hours 0 minutes and 26.85 seconds (26.85s).
+[0m15:53:19.725366 [debug] [MainThread]: Command end result
+[0m15:53:20.098592 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\manifest.json
+[0m15:53:20.127594 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\semantic_manifest.json
+[0m15:53:20.184137 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt-mileage-project\target\run_results.json
+[0m15:53:20.186136 [info ] [MainThread]: 
+[0m15:53:20.210134 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m15:53:20.252544 [info ] [MainThread]: 
+[0m15:53:20.318436 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m15:53:20.417134 [debug] [MainThread]: Command `dbt run` succeeded at 15:53:20.417134 after 191.35 seconds
+[0m15:53:20.419133 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D75502F60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D0B36EE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D0B36FC50>]}
+[0m15:53:20.428175 [debug] [MainThread]: Flushing usage events
+[0m15:53:23.408494 [debug] [MainThread]: An error was encountered while trying to flush usage events
